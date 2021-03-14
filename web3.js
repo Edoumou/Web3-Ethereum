@@ -29,7 +29,7 @@ networkNames.map((network, index) => {
 
 
 
-    //******************************  all together (just to check to result) *******************************//
+    //******************************  all together (just to check the result) *******************************//
     web3.eth.net.getId((err, ID) => {
         if (!err) {
             web3.eth.net.isListening((err, listening) => {
